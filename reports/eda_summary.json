@@ -1,0 +1,181 @@
+{
+  "rows": 7043,
+  "columns": 22,
+  "churn_rate": 0.2654,
+  "class_counts": {
+    "0": 5174,
+    "1": 1869
+  },
+  "numeric_summary": {
+    "tenure": {
+      "mean": 32.371,
+      "std": 24.559,
+      "min": 0.0,
+      "p25": 9.0,
+      "median": 29.0,
+      "p75": 55.0,
+      "max": 72.0
+    },
+    "MonthlyCharges": {
+      "mean": 64.762,
+      "std": 30.09,
+      "min": 18.25,
+      "p25": 35.5,
+      "median": 70.35,
+      "p75": 89.85,
+      "max": 118.75
+    },
+    "TotalCharges": {
+      "mean": 2279.734,
+      "std": 2266.794,
+      "min": 0.0,
+      "p25": 398.55,
+      "median": 1394.55,
+      "p75": 3786.6,
+      "max": 8684.8
+    },
+    "avg_monthly_spend": {
+      "mean": 64.698,
+      "std": 30.271,
+      "min": 0.0,
+      "p25": 35.649,
+      "median": 70.3,
+      "p75": 90.174,
+      "max": 121.4
+    },
+    "num_services": {
+      "mean": 2.941,
+      "std": 1.844,
+      "min": 0.0,
+      "p25": 1.0,
+      "median": 3.0,
+      "p75": 4.0,
+      "max": 7.0
+    },
+    "service_density": {
+      "mean": 0.42,
+      "std": 0.263,
+      "min": 0.0,
+      "p25": 0.143,
+      "median": 0.429,
+      "p75": 0.571,
+      "max": 1.0
+    }
+  },
+  "categorical_churn_rates": {
+    "Contract": {
+      "Month-to-month": {
+        "churn_rate": 0.4271,
+        "customers": 3875
+      },
+      "One year": {
+        "churn_rate": 0.1127,
+        "customers": 1473
+      },
+      "Two year": {
+        "churn_rate": 0.0283,
+        "customers": 1695
+      }
+    },
+    "InternetService": {
+      "DSL": {
+        "churn_rate": 0.1896,
+        "customers": 2421
+      },
+      "Fiber optic": {
+        "churn_rate": 0.4189,
+        "customers": 3096
+      },
+      "No": {
+        "churn_rate": 0.074,
+        "customers": 1526
+      }
+    },
+    "PaymentMethod": {
+      "Bank transfer (automatic)": {
+        "churn_rate": 0.1671,
+        "customers": 1544
+      },
+      "Credit card (automatic)": {
+        "churn_rate": 0.1524,
+        "customers": 1522
+      },
+      "Electronic check": {
+        "churn_rate": 0.4529,
+        "customers": 2365
+      },
+      "Mailed check": {
+        "churn_rate": 0.1911,
+        "customers": 1612
+      }
+    },
+    "TechSupport": {
+      "No": {
+        "churn_rate": 0.4164,
+        "customers": 3473
+      },
+      "No internet service": {
+        "churn_rate": 0.074,
+        "customers": 1526
+      },
+      "Yes": {
+        "churn_rate": 0.1517,
+        "customers": 2044
+      }
+    }
+  },
+  "top_correlations_with_target": [
+    {
+      "feature": "Contract",
+      "correlation": 0.3967
+    },
+    {
+      "feature": "contract_risk",
+      "correlation": 0.3967
+    },
+    {
+      "feature": "tenure",
+      "correlation": -0.3522
+    },
+    {
+      "feature": "InternetService",
+      "correlation": 0.3168
+    },
+    {
+      "feature": "PaymentMethod",
+      "correlation": 0.2628
+    },
+    {
+      "feature": "TotalCharges",
+      "correlation": -0.1983
+    },
+    {
+      "feature": "MonthlyCharges",
+      "correlation": 0.1934
+    },
+    {
+      "feature": "avg_monthly_spend",
+      "correlation": 0.1933
+    },
+    {
+      "feature": "PaperlessBilling",
+      "correlation": 0.1918
+    },
+    {
+      "feature": "OnlineSecurity",
+      "correlation": -0.1712
+    }
+  ],
+  "median_tenure_by_churn": {
+    "0": 38.0,
+    "1": 10.0
+  },
+  "median_monthly_charges_by_churn": {
+    "0": 64.43,
+    "1": 79.65
+  },
+  "median_services_by_churn": {
+    "0": 3,
+    "1": 2
+  }
+}
